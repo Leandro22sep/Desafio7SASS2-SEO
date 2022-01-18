@@ -29,8 +29,8 @@ body {
   background-image: url(../images/centinela_principal.jpg);
   background-position: center;
   background-size: cover;
-  height: 650px;
   width: 100%;
+  height: 650px;
   margin-bottom: 0;
 }
 
@@ -47,8 +47,8 @@ body {
 }
 
 .imgCarrusel {
-  height: 260px;
   width: 100%;
+  height: 260px;
   top: 100px;
 }
 
@@ -64,8 +64,8 @@ body {
 }
 
 .seccionUbicacionTuristica {
-  height: 500px;
   width: 100%;
+  height: 500px;
 }
 
 @media only screen and (min-width: 1200px) {

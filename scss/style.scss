@@ -7,9 +7,17 @@ $colorBlanco: #fff;
 $colorGrisOscuro: #222;
 $sombraGrisOscuro: 0 0 5px $colorGrisOscuro;
 
+@mixin tamaños($width, $height){
+    width: $width;
+    height: $height;
+}
+$espacios: (
+    margin: 0,
+    padding: 0,
+);
 * {
-    margin: 0;
-    padding: 0;
+    margin: map-get($espacios, margin);
+    padding: map-get($espacios, padding);
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -39,8 +47,7 @@ body {
     background-image: url(../images/centinela_principal.jpg);
     background-position: center;
     background-size: cover;
-    height: 650px;
-    width: 100%;
+    @include tamaños(100%, 650px);
     margin-bottom: 0;
     // creo un mapa
     $mapaImagenHome: (
@@ -58,8 +65,7 @@ body {
 }
 
 .imgCarrusel {
-    height: 260px;
-    width: 100%;
+    @include tamaños(100%, 260px);
     top: 100px;
 }
 
@@ -75,8 +81,7 @@ body {
 }
 
 .seccionUbicacionTuristica {
-    height: 500px;
-    width: 100%;
+    @include tamaños(100%, 500px);
 }
 
 @media only screen and (min-width: 1200px) {
