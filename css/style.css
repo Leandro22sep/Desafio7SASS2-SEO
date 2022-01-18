@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Outfit:wght@100;200;300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+.navegador {
+  background-color: #5b1f00;
+}
+
+.colorMarronClaro {
+  color: #ffd7ab;
+}
+
+.custom-toggler .navbar-toggler {
+  border-color: #fff;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.imagenPrincipalHome {
+  background-image: url(../images/centinela_principal.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 650px;
+  width: 100%;
+  margin-bottom: 0;
+}
+.imagenPrincipalHome div h2 {
+  color: #ffd7ab;
+  text-shadow: 0 0 5px #222;
+  font-size: 40px;
+}
+.imagenPrincipalHome div p {
+  color: #ffd7ab;
+  text-shadow: 0 0 5px #222;
+  font-size: 17px;
+}
+
+.imgCarrusel {
+  height: 260px;
+  width: 100%;
+  top: 100px;
+}
+
+.tituloTurismo {
+  font-size: 26px;
+  top: 100px;
+  height: 50px;
+}
+
+.parrafoTurismo {
+  font-size: 14px;
+  height: 140px;
+}
+
+.seccionUbicacionTuristica {
+  height: 500px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 1200px) {
+  .imagenPrincipalHome {
+    height: 900px;
+    margin-bottom: 0;
+  }
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .tituloTurismo {
+    font-size: 22px;
+    top: 100px;
+    height: 50px;
+  }
+
+  .parrafoTurismo {
+    height: 180px;
+  }
+
+  .imgCarrusel {
+    height: 180px;
+  }
+}
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+  .imgCarrusel {
+    height: 300px;
+  }
+
+  .seccionUbicacionTuristica {
+    height: 550px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .imagenPrincipalHome {
+    height: 300px;
+    margin-bottom: 0;
+  }
+}
+@media only screen and (max-width: 479px) and (min-width: 360px) {
+  .imgCarrusel {
+    height: 220px;
+  }
+}
+@media only screen and (max-width: 359px) {
+  .seccionUbicacionTuristica {
+    height: 600px;
+  }
+}
+.mainTurismo {
+  background-color: #ffd7ab;
+  color: #5b1f00;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.mainConsulta {
+  height: 800px;
+  background-color: #ffd7ab;
+}
+
+.tituloConsulta {
+  text-align: center;
+  font-size: 30px;
+}
+
+.nombreyapellido {
+  font-size: 15px;
+}
+
+.formConsulta div {
+  margin-bottom: 40px;
+}
+.formConsulta h2 {
+  margin-bottom: 40px;
+}
+
+.tituloHeader {
+  font-size: xx-large;
+}
+
+header {
+  background-color: #cd966c;
+  color: #5b1f00;
+}
+
+.enlacesFooter ul li a {
+  font-size: small;
+  padding: 10px;
+}
+
+.patrocinadores img {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+}
+
+.pieDePagina {
+  width: 100%;
+  background-color: #5b1f00;
+  padding-top: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+  .enlacesFooter ul li a {
+    font-size: xx-small;
+    padding: 5px;
+  }
+
+  .patrocinadores img {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
