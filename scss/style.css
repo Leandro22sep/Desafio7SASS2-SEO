@@ -34,13 +34,13 @@ body {
   margin-bottom: 0;
 }
 
-.imagenPrincipalHome div h2 {
+.imagenPrincipalHome .size--size1 {
   color: #ffd7ab;
   text-shadow: 0 0 5px #222;
   font-size: 40px;
 }
 
-.imagenPrincipalHome div p {
+.imagenPrincipalHome .size--size2 {
   color: #ffd7ab;
   text-shadow: 0 0 5px #222;
   font-size: 17px;
@@ -138,12 +138,8 @@ body {
   font-size: 15px;
 }
 
-.formConsulta div {
-  margin-bottom: 40px;
-}
-
-.formConsulta h2 {
-  margin-bottom: 40px;
+.divConsulta, .tituloConsulta {
+  margin-bottom: 20px;
 }
 
 .tituloHeader {
