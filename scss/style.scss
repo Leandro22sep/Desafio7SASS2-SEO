@@ -11,6 +11,7 @@ $sombraGrisOscuro: 0 0 5px $colorGrisOscuro;
     width: $width;
     height: $height;
 }
+//uso el map-get para aplicar margin y padding 0
 $espacios: (
     margin: 0,
     padding: 0,
