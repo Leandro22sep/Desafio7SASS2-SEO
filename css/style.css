@@ -136,6 +136,13 @@ body {
   margin-bottom: 20px;
 }
 
+.tituloPpalTurismo {
+  text-align: center;
+  color: #5b1f00;
+  font-size: 50px;
+  margin: 20px;
+}
+
 .tituloHeader {
   font-size: xx-large;
 }

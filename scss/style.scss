@@ -164,6 +164,13 @@ body {
     margin-bottom: 20px;
 }
 
+.tituloPpalTurismo{
+    text-align: center;
+    color: $color2;
+    font-size: 50px;
+    margin: 20px
+}
+
 .tituloConsulta{
     @extend .divConsulta;
 }
